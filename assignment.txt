@@ -1,0 +1,10 @@
+answer.1= 
+LET(block scope)=let can be reassign but cannot redeclare.
+VAR(global scope)=var can be reassign and redeclare.
+CONST(block scope)= cannot reassign and not redeclare.
+
+
+
+answer.3= if we try to reassign the value of const in js we get error, because const cannot redeclare the variables.
+
+answer.2=concatenation means  combining two or more string in one string using the + operator.
