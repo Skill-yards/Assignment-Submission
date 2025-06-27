@@ -1,6 +1,6 @@
-Ans-1- Let-it is a block scope variable and it can be reassigned or can be re declared
+Ans-1- Let-it is a block scope variable and it can be reassigned or can be re declared(BUT NOT IN A SAME SCOPE). 
        var-it is a globally scoped variable that is in use until let came and its also can be reassigned and redeclared.
-       const- it is a block scope variable in which we store the values that are constant throughout the code and it cannot be       redeclared or reassigned.
+       const- it is a block scope variable in which we store the values that are constant throughout the code and it cannot be redeclared or reassigned.
 
 Ans-2-if we dont have to use template literals then we use (+) sign to join two strings or Strings and no.s or any data types.
        example-
