@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Event Planner</h1>
+  <form id="eventForm">
+<label for="text">Event Name</label>
+<input type="text" id="eventName">
+<label for="Date">Date</label>
+<input type="date" id="eventDate">
+<label for="Time">Time</label>
+<input type="time" id="eventTime">
+<label for="Location">Location</label>
+<input type="text" id="eventLocation">
+<label for="Attendees">Attendees (comma-seperated)</label>
+<textarea id="Attendees"></textarea>
+<button id="butt" onclick="updateDisplay()">create event</button>
+  </form>
+  <h1 id="heading">No Upcomming Events</h1>
+  <div id="display"></div>
+
+
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
