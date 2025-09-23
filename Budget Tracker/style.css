@@ -1,0 +1,98 @@
+body {
+  background: #f3f6fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #2b4162;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.container {
+  background: #fff;
+  max-width: 420px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(23, 46, 82, 0.08);
+  padding: 28px 30px 24px 30px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 220px;
+  padding: 9px 12px;
+  margin: 8px 10px 8px 0;
+  border: 1px solid #ced6e0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border-color: #5276db;
+  outline: none;
+}
+
+button {
+  padding: 9px 18px;
+  background: #2b4162;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 8px 6px 8px 0;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+button:hover {
+  background: #4664ad;
+}
+
+#show {
+  margin-top: 24px;
+  background: #fff;
+  min-height: 40px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px #2b416218;
+  padding: 18px;
+  font-size: 1.05rem;
+  color: #31333e;
+}
+
+/* Transaction history styling */
+#show ul {
+  margin: 0.5em 0 0 0;
+  padding-left: 1.15em;
+  list-style: disc;
+}
+
+#show li {
+  margin-bottom: 8px;
+  font-family: inherit;
+}
+
+#show b {
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 18px 8px;
+  }
+
+  input[type="number"], input[type="text"] {
+    width: 98%;
+    margin: 6px 0;
+  }
+  button {
+    width: 100%;
+    margin: 6px 0;
+    padding: 10px;
+  }
+}

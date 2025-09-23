@@ -11,3 +11,27 @@ Ans-2-if we dont have to use template literals then we use (+) sign to join two 
        output: Student name is chakresh age is 23 and is Student true
 
 Ans-3-It gives an Error that the value stored in const should be constant and cannot be reassigned.
+
+
+
+
+function nT(rows){
+    for(let i=1;i<=rows;i++){
+        let num="1"
+        for(let j=2;j<=i;j++){
+            num+=j
+        }
+         console.log(num)
+    }
+    for(let i=rows-1;i>=1;i--){
+        let num="1"
+        for(let j=2;j<=i;j++){
+            num+=j
+        }
+        console.log(num)
+    }
+    
+   
+    
+}
+nT(5)

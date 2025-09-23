@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Your Budget Tracker</h1>
+  <input id="income"  type="number" placeholder="enter your income" required>
+  <button id="income1" onclick="update()">add</button>
+  <input type="text" id="Description" placeholder="enter description" required>
+  <input id="expense"  type="number" placeholder="enter your expense">
+  <button id="expense2" onclick="expense()">add</button>
+  <button id="balance" onclick="viewBalance()">view Balance</button>
+  <button id="history" onclick="viewHistory()">view history</button>
+  <div id="show"></div>
+
+  <script src="budget.js"></script>
+  
+</body>
+</html>
